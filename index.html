@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLAMAS-2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+  
+        body {
+
+    background-color: #000;
+
+    color: #fff;
+
+    font-family: sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+}
+
+header {
+
+    padding: 20px 0;
+
+}
+
+h1 {
+
+    font-size: 9em;
+
+    margin: 10px 0;
+
+}
+
+h2 {
+
+    font-size: 3em;
+
+}
+
+p {
+
+    font-size: 1.2em;
+
+    line-height: 1.5;
+
+}
+img {
+  margin-right: 10px; /* Add space between logo and text */ height: 30px; /* Adjust height based on your logo size */ }
+
+        .divider {
+            border-top: 2px solid #fff;
+            margin: 40px auto; /* Increased margin for more space */
+            width: 80%;
+        }
+        .welcome-content {
+            margin-bottom: 80px; /* Increased margin for more space */
+        }
+        .capabilities {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            color: #000; /* Changed font color to black */
+        }
+        .capabilities h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .capability-box {
+            background-color: #e9ecef;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .capability-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .how-it-works {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #000; /* Changed background color to black */
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Changed font color to white */
+        }
+        .how-it-works h2 {
+            color: #fff; /* Changed font color to white */
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .how-it-works p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px; /* Added margin-bottom for better spacing */
+        }
+        .how-it-works img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .chat {
+            background-color: #000;
+            color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .chat .message {
+            margin-bottom: 10px;
+        }
+        .chat .message.user .avatar {
+            float: left;
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .chat .message.ai .avatar {
+            float: right;
+            margin-left: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .chat .message.user .text {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 10px;
+            clear: both;
+            float: left;
+            max-width: 70%;
+        }
+        .chat .message.ai .text {
+            background-color: #666;
+            padding: 10px;
+            border-radius: 10px;
+            clear: both;
+            float: right;
+            max-width: 70%;
+        }
+    </style>
+</head>
+<body class="css-body">
+    <header>
+        <img src="https://yt3.ggpht.com/a/AATXAJzYT1rumwOdi0mza2hb91s3-7nQVtUSVDEBXQ=s900-c-k-c0xffffffff-no-rj-mo" alt="OpenAI Logo"> <h2>Qube</h2>
+    </header>
+    <main>
+        <div class="welcome-content">
+            <h1>LLAMAS-2</h1>
+            <p>LLAMAS-2: Your AI coding companion. Powered by GPT-4, LLAMAS-2 transforms your ideas into code with unmatched precision, revolutionizing software development.</p>
+        </div>
+        
+          
+          
+          
+        <div class="capabilities">
+            <h2>Capabilities</h2>
+            <div class="capability-box">
+                <p class="capability-title">Generate Code Snippets</p>
+                <p>LLAMAS-2 can generate code snippets for various programming languages.</p>
+            </div>
+            <div class="capability-box">
+                <p class="capability-title">Translate Natural Language</p>
+                <p>LLAMAS-2 can translate natural language descriptions into functional code.</p>
+            </div>
+            <div class="capability-box">
+                <p class="capability-title">Optimize and Refactor Code</p>
+                <p>LLAMAS-2 can optimize and refactor existing code for improved efficiency.</p>
+            </div>
+            <div class="capability-box">
+                <p class="capability-title">Real-time Assistance</p>
+                <p>LLAMAS-2 provides real-time coding assistance and suggestions.</p>
+            </div>
+            <div class="capability-box">
+                <p class="capability-title">Custom Solutions</p>
+                <p>LLAMAS-2 can create custom solutions tailored to specific project requirements.</p>
+            </div>
+            <div class="capability-box">
+                <pclass="capability-title">Platform Support LLAMAS-2 supports multiple platforms including web, mobile, and desktop.   Integration LLAMAS-2 integrates seamlessly with popular development tools and platforms.    How it Works LLAMAS-2 works by analyzing your input, understanding the context and requirements of your coding task, and leveraging the power of GPT-4, an advanced AI model trained in understanding and generating code. It uses state-of-the-art natural language processing techniques to interpret your instructions and generate high-quality code tailored to your needs. Once you input your requirements, LLAMAS-2 processes the information, identifies patterns, and generates code snippets or solutions that best match your specifications. It provides real-time assistance and suggestions, allowing you to iterate quickly and efficiently on your projects.     Hi LLAMAS-2! Can you help me generate code for a login form?      Of course! I can generate the code for you. Let me analyze your request.      Here's the code for a basic login form in HTML:&lt;form action="#" method="post"&gt;<br>
+
+                        &nbsp;&nbsp;&lt;label for="username"&gt;Username:&lt;/label&gt;<br>
+
+                        &nbsp;&nbsp;&lt;input type="text" id="username" name="username" required&gt;<br>
+
+                        &nbsp;&nbsp;&lt;label for="password"&gt;Password:&lt;/label&gt;<br>
+
+                        &nbsp;&nbsp;&lt;input type="password" id="password" name="password" required&gt;<br>
+
+                        &nbsp;&nbsp;&lt;input type="submit" value="Login"&gt;<br>
+
+                        &lt;/form&gt;
+
+                    </code>
+
+                </div>
+
+            </div>
+
+            <div class="message user">
+
+                <img src="user.png" alt="User Avatar" class="avatar">
+
+                <div class="text">
+
+                    Thank you, LLAMAS-2! That looks great.
+
+                </div>
+
+            </div>
+
+            <div class="message ai">
+
+                <img src="ai.png" alt="AI Avatar" class="avatar">
+
+                <div class="text">
+
+                    You're welcome! If you need further assistance, feel free to ask.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+</html>
